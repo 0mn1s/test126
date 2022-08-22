@@ -1,0 +1,21 @@
+#3
+
+
+#6
+```{r}
+nrolls<- 1000
+nred<-18 #out of 38
+nblackgreen<- 20 #out of 38
+sum(sample(c(+1,-1),nrolls, TRUE, c(nred, nblackgreen)))
+rbin
+ nsims<- 100
+ s<- replicate(nsims,
+                sum(sample(c(+1,-1), nrolls, TRUE, c(nred, nblackgreen))))
+hist(s)
+```
+
+
+#13
+```{r}
+
+```
